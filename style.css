@@ -1,0 +1,233 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: lato, sans-serif;
+	vertical-align: baseline;
+}
+h1, h2, h3, h4, h5, h6 {
+  padding-top: 10px;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 235);
+
+}
+header {
+  background-image: url("images/main-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  margin-top: -10px;
+  padding: 120px 0;
+  width: 100%;
+  border-bottom: 40px solid #fcc904;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  padding: 10px 200px;
+  z-index: 10;
+}
+
+.main-logo {
+  float: left;
+  width: 300px;
+  margin: 20px 0px 20px 50px;
+  padding-right: 50px;
+  overflow: auto;
+}
+.nav-ul {
+  padding-left: 0;
+}
+
+.nav-li {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  color: black;
+  text-transform: uppercase;
+  list-style-type: none;
+  float: left;
+  margin: 5px 10px;
+  padding-top: 40px;
+}
+.nav-links {
+  color: black;
+  font-style: normal;
+
+}
+
+.main-heading {
+  text-align: center;
+  margin: 80px auto 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 450px;
+  padding: 15px;
+}
+.white-headings {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  color: white;
+}
+a{
+  cursor: pointer;
+}
+
+a:hover {
+  color: red;
+}
+.body-width {
+  width: 1200px;
+}
+
+h1, h2, h3 {
+    font-family: lato, sans-serif;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+  }
+section {
+  font-family: lato, sans-serif;
+}
+
+article {
+  width: 55%;
+  float: left;
+  padding: 15px;
+  margin-left: 50px;
+}
+#website-preview-image {
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+aside {
+  width: 30%;
+  float: right;
+  padding: 15px;
+  margin-right: 50px;
+  margin-top: 20px;
+  border: 3px solid grey;
+}
+#web-design-widget {
+  border: 7px solid white;
+  border-style: double;
+  margin: 0 auto;
+}
+.div-button {
+  background-color: #fcc904;
+  color: white;
+  width: 200px;
+  padding: 15px 50px 15px 50px;
+  text-align: center;
+  border: 5px solid white;
+  border-radius: 15px 15px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: lato, sans-serif;
+  text-transform: uppercase;
+  margin: 50px auto;
+  text-shadow: 1px 1px 0px #000000;
+  font-style: normal;
+}
+
+.div-button:hover {
+  background-color: white;
+  color: #fcc904;
+  width: 200px;
+  padding: 15px 50px 15px 50px;
+  text-align: center;
+  border: 5px solid #fcc904;
+  border-radius: 15px 15px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: lato, sans-serif;
+  text-transform: uppercase;
+  margin: 50px auto;
+  text-shadow: 1px 1px 0px #000000;
+  font-style: normal;
+}
+}
+.button-link-color{
+  color: transparent;
+}
+.button-link-color:hover {
+  color: transparent;
+}
+.column1of3 {
+  clear: right;
+}
+
+.column1of3, .column2of3, .column3of3 {
+  float: left;
+  width: 300px;
+  margin: 100px 0px 10px 90px;
+  text-align: justify;
+}
+.column-icons {
+  margin: 0 auto;
+  padding: 10px 0px 25px 70px;
+}
+
+.closing-statement {
+  clear: left;
+  text-align: center;
+  margin-left: 270px;
+  padding-top: 50px;
+  font-size: 36px;
+  width: 700px;
+
+}
+
+footer {
+    clear: both;
+    background-color: #fcc904;
+    text-align: center;
+    font-family: lato;
+    font-size: 12px;
+    margin-top: 50px;
+    padding: 50px 0
+}
